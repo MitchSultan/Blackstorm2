@@ -9,11 +9,8 @@ export default function Hero() {
           <img
             src="split.jpg"
             alt="Large-scale civil engineering construction site in Queensland"
-            fill
-            style={{ objectFit: "cover" }}
-            priority
-            sizes="100vw"
-          ></img>
+            className="hero__img"
+          />
           <div className="hero__overlay" />
         </div>
 
