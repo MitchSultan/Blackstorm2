@@ -6,14 +6,14 @@ export default function Hero() {
     <>
       <section id="hero" className="hero" aria-label="Hero">
         <div className="hero__bg">
-          <Image
-            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80"
+          <img
+            src="split.jpg"
             alt="Large-scale civil engineering construction site in Queensland"
             fill
             style={{ objectFit: "cover" }}
             priority
             sizes="100vw"
-          />
+          ></img>
           <div className="hero__overlay" />
         </div>
 

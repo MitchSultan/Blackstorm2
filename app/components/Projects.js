@@ -4,21 +4,21 @@ import ScrollReveal from "./ScrollReveal";
 
 const projects = [
   {
-    image: "https://images.unsplash.com/photo-1590779033100-9f60a05a013d?w=800&q=80",
+    image: "fullbleed.jpg",
     tags: ["Civil", "Marine"],
     title: "Great Keppel Island Revetment Wall",
     excerpt: "Revetment wall construction in a tidal coastal environment, requiring marine certification and coordinated barge logistics.",
     alt: "Coastal revetment wall construction at Great Keppel Island",
   },
   {
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80",
+    image: "mission-2.jpg",
     tags: ["Infrastructure"],
     title: "Hale Street Noise Barrier — Paddington",
     excerpt: "Structural design and project management of noise barrier construction along a high-traffic urban corridor.",
     alt: "Noise barrier structure along Hale Street Paddington",
   },
   {
-    image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800&q=80",
+    image: "split.jpg",
     tags: ["Water", "Civil"],
     title: "QUU Water Infrastructure Works",
     excerpt: "QUU endorsed hydraulic and civil design for a water supply upgrade in South East Queensland.",
@@ -40,13 +40,13 @@ export default function Projects() {
             <ScrollReveal key={p.title} delay={i * 0.1}>
               <article className="project-card">
                 <div className="project-card__image">
-                  <Image
+                  <img
                     src={p.image}
                     alt={p.alt}
                     fill
                     style={{ objectFit: "cover" }}
                     sizes="(min-width: 768px) 33vw, 100vw"
-                  />
+                  ></img>
                 </div>
                 <div className="project-card__body">
                   <div className="project-card__tags">

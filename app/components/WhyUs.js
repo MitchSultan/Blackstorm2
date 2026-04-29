@@ -29,13 +29,13 @@ export default function WhyUs() {
   return (
     <section id="about" className="why-us" aria-label="Why Blackstorm">
       <div className="why-us__hero-image">
-        <Image
-          src="https://images.unsplash.com/photo-1601597111158-2fceff292cdc?w=1920&q=80"
+        <img
+          src="split.jpg"
           alt="Engineering team collaboration on a Queensland infrastructure project"
           fill
           style={{ objectFit: "cover" }}
           sizes="100vw"
-        />
+        ></img>
       </div>
 
       <div className="why-us__content">

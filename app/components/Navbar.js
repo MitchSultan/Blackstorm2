@@ -44,7 +44,7 @@ export default function Navbar() {
       <header className={`navbar ${scrolled ? "navbar--scrolled" : ""}`} role="banner">
         <div className="container navbar__inner">
           <Link href="/" className="navbar__logo" aria-label="Blackstorm Engineers Home">
-            BLACKSTORM ENGINEERS
+            <img src="/logo.svg" alt="Blackstorm Engineers Logo" width={200} height={200} ></img>
           </Link>
 
           <nav className="navbar__links" aria-label="Main navigation">

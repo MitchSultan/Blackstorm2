@@ -28,13 +28,13 @@ export default function Intro() {
 
         <ScrollReveal direction="right" delay={0.15}>
           <div className="intro__image">
-            <Image
-              src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80"
+            <img
+              src="mission-1.jpg"
               alt="Blackstorm Engineers team reviewing structural plans on site"
               fill
               style={{ objectFit: "cover" }}
               sizes="(min-width: 768px) 40vw, 100vw"
-            />
+          ></img>
           </div>
         </ScrollReveal>
       </div>
