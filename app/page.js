@@ -20,7 +20,7 @@ export default function Home() {
         <Stats />
         <Projects />
         <WhyUs />
-        <Careers />
+        
         <CtaBanner />
       </main>
       <Footer />
